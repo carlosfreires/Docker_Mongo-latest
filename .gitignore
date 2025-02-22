@@ -1,0 +1,45 @@
+# Diretório de dados do MongoDB
+dados_mongo/*
+!dados_mongo/.gitignore
+
+# Arquivos de log
+*.log
+
+# Arquivos de configuração sensíveis
+.env
+
+# Diretórios e arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+tmp/
+*.tmp
+
+# Arquivos de backup
+*.bak
+*.old
+
+# Arquivos de cache
+.cache/
+
+# Arquivos de compilação
+*.o
+*.obj
+*.dll
+*.exe
+
+# Diretórios de dependências
+node_modules/
+vendor/
+
+# Arquivos do editor de texto/IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos do Docker
+docker-compose.override.yml
