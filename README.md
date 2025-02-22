@@ -1,6 +1,6 @@
 # Contêiner Docker MongoDB
 
-O objetivo desse repositório é configura um ambiente **Docker** para o **MongoDB** utilizando o *Docker Compose*. Inclui um contêiner do MongoDB com persistência de dados e fornece instruções detalhadas para instalação e uso.
+O objetivo desse repositório é configurar um ambiente **Docker** para o **MongoDB** utilizando o *Docker Compose*. Inclui um contêiner do MongoDB com persistência de dados e fornece instruções detalhadas para instalação e uso.
 
 ## Estrutura de Diretórios
 
