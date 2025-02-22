@@ -8,11 +8,14 @@ A estrutura de diretórios do projeto é a seguinte:
 ```
     docker_mongo-latest/
     ├── dados_mongo/
+    │   └── .gitignore
     ├── .gitignore
     ├── docker-compose.yml
     └── README.md
 ```
 * **dados_mongo/**: Diretório destinado ao armazenamento dos dados do MongoDB. Os dados persistentes do banco de dados serão mantidos aqui.
+
+* **dados_mongo/.gitignore**: Arquivo .gitignore dentro do diretório dados_mongo/ que garante que apenas o diretório em si seja mantido no repositório e não seus conteúdos (dados do MongoDB).
 
 * **.gitignore**: Arquivo que especifica quais arquivos ou diretórios devem ser ignorados pelo Git.
 
