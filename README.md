@@ -23,7 +23,7 @@ A estrutura de diretórios do projeto é a seguinte:
 
 * **docker-compose.yml**: Arquivo de configuração do Docker Compose que define os serviços e suas respectivas configurações.
 
-* **init-mongo.js**: Script de inicialização para configurar um usuário administrador no MongoDB, necessário para autenticação.
+* **init-mongo.js**: Este script é executado quando o MongoDB é iniciado, criando o banco de dados Meu_Docker_Mongo e inserindo um documento inicial na coleção teste
 
 * **README.md**: Este documento! Fornecendo detalhes sobre o projeto e instruções de uso.
 
@@ -61,7 +61,7 @@ O MongoDB Compass é uma interface gráfica que facilita a interação com o Mon
 * **Baixe e instale o MongoDB Compass**: [Download MongoDB Compass](https://www.mongodb.com/try/download/compass)
 * Leia a [Documentação Oficial do MongoDB Compass](https://www.mongodb.com/pt-br/docs/compass/current/)
 
-* **Conecte-se ao MongoDB**: Use a string de conexão *mongodb://root:1234@localhost:27017/Meu_Docker_Mongo*.
+* **Conecte-se ao MongoDB**: Use a string de conexão *mongodb://root:1234@localhost:27017/Meu_Docker_Mongo?authSource=admin*.
 
 ## Parando e Removendo o Contêiner
 Para parar o contêiner, execute:
